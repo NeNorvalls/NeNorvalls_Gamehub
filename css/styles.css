@@ -92,15 +92,14 @@ header {
 }
 
 .topnav a:hover {
-  background-color: #334C87;
+  background-color: #334C87; 
 }
 
 .topnav a.active,
-.topnav a:hover,
-.img-column h2 a:hover,
-.footer-links a:hover {
+.topnav a:hover {
   color: #fff700;
 }
+
 
 /* Search Icon */
 
@@ -333,6 +332,14 @@ h2 {
   margin-top: 10px;
 }
 
+span a.game-title {
+  text-decoration: underline;
+}
+
+span a.game-title:hover,
+p > a {
+  color: #fff700;
+}
 /* HOME responsiveness */
 
 @media screen and (max-width: 999px) {
@@ -554,10 +561,8 @@ input[type="radio"] {
 }
 
 .img-column h2 a:hover {
+  color: #fff700;
   transition: .2s;
-  color: #334C87;
-  
-
 }
 /* CATEGORY */
 .category-img {
@@ -1006,6 +1011,7 @@ span.copy {
 }
 
 .footer-links a:hover {
+  color: #1d2540;
   transition: .2s ease-in;
 }
 
