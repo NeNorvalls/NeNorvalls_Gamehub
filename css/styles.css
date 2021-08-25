@@ -93,11 +93,13 @@ header {
 
 .topnav a:hover {
   background-color: #334C87;
-  color: #1d2540;
 }
 
-.topnav a.active {
-  color: #1d2540;
+.topnav a.active,
+.topnav a:hover,
+.img-column h2 a:hover,
+.footer-links a:hover {
+  color: #fff700;
 }
 
 /* Search Icon */
@@ -1004,7 +1006,6 @@ span.copy {
 }
 
 .footer-links a:hover {
-  color: #1d2540;
   transition: .2s ease-in;
 }
 
