@@ -5,7 +5,10 @@ body {
   font-family: "Open Sans";
   margin: 0;
   text-decoration: none;
-  min-height: 100vh;
+}
+
+main {
+    min-height: 100vh;
 }
 
 input {
@@ -212,8 +215,20 @@ header {
   color: #1d2540;
 }
 
+.news-container {
+    max-width: 800px;
+}
+
+.news-h2 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .news-container p {
-  text-align: left;
+    /* flex: 0 0 1; */
+    text-align: left;
 }
 
 h1 {
